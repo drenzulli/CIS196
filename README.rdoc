@@ -1,28 +1,10 @@
-== README
+Link to Heroku page:
+http://ancient-bayou-6299.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+What I did: 
+Tried following the slides.  Ended up in office hours... thanks heroku. =)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+And any issues you had and how you solved them:
+
+I had a whole bunch of issues initially getting rails installed.  I got that up and running on Ubuntu 13.04 by installing an additional version of Ruby (1.9.1 -Dev).  This worked great until I got to heroku, which got confused by the many versions of Ruby I had installed.  Finally, I went in for office hours and we completely uninstalled everything, then re-installed all of it through an RVM.  Voila! Problem solved.
